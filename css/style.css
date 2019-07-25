@@ -1,0 +1,62 @@
+header {
+    background:#ffffff;
+    width: 960px;
+    margin: 0 auto 0 auto;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    line-height: 30px;
+}
+
+.headerbox {
+    background-color: #4aaaa5;
+    padding: 20px;
+    width: 250px;
+    text-align: center
+}
+
+.main-section {
+    background-image: url("../images/homework1background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    background-color: #ffffff;
+    width: 960px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 550px;
+    padding: 40px;
+}
+
+#headshot {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 20px;
+    background: #666666;
+    text-align: center;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+}
