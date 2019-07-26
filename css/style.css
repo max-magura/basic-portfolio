@@ -3,7 +3,7 @@ header {
     width: 960px;
     margin: 0 auto;
     padding: 0;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 body {
@@ -40,9 +40,11 @@ p {
     text-align: center;
     position: relative;
     left: 0px;
-    bottom: 0px;
+    bottom: 20px;
     margin: 0;
     height: auto;
+    border: #cccccc;
+    border-bottom: 100px;
 }
 
 .links {
@@ -52,6 +54,12 @@ p {
     float: right;
     height: auto;
     margin: 0 auto;
+    bottom: 20px;
+}
+
+.topborder {
+    background-color: #cccccc;
+    height: 3px;
 }
 
 .main-section {
@@ -69,6 +77,9 @@ p {
     height: auto;
     padding: 40px;
     clear: both;
+    border-color: #dddddd;
+    border-width: 2px;
+    border-style: solid;
 }
 
 #headshot {
@@ -77,10 +88,15 @@ p {
     margin-bottom: 20px;
 }
 
+.bottomborder {
+    background-color: #4aaaa5;
+    height: 7px;
+}
+
 footer {
     padding: 20px;
     background: #666666;
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    color: #777777;
+    color: #dddddd;
 }
