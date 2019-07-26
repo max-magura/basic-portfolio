@@ -1,7 +1,14 @@
 header {
     background:#ffffff;
     width: 960px;
-    margin: 0 auto 0 auto;
+    margin: 0 auto;
+    padding: 0;
+    margin-top: 50px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
 }
 
 p {
@@ -12,6 +19,7 @@ p {
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff;
+    display: inline;
 }
 
 h2 {
@@ -25,17 +33,32 @@ p {
     line-height: 30px;
 }
 
-.headerbox {
+.namebox {
     background-color: #4aaaa5;
     padding: 20px;
     width: 250px;
-    text-align: center
+    text-align: center;
+    position: relative;
+    left: 0px;
+    bottom: 0px;
+    margin: 0;
+    height: auto;
+}
+
+.links {
+    position: relative;
+    right: 0px;
+    width: 200px;
+    float: right;
+    height: auto;
+    margin: 0 auto;
 }
 
 .main-section {
     background-image: url("../images/homework1background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    padding: 40px;
 }
 
 .content {
@@ -43,8 +66,9 @@ p {
     width: 960px;
     margin-right: auto;
     margin-left: auto;
-    height: 550px;
+    height: auto;
     padding: 40px;
+    clear: both;
 }
 
 #headshot {
