@@ -67,7 +67,7 @@ p {
 
 .menulinks:hover {
     background-color: #38807C;
-    color: #ffffff;
+    color: #ffffff;background-color: #38807C;
 }
 
 .links {
@@ -110,6 +110,11 @@ p {
     float: left;
     margin-right: 20px;
     margin-bottom: 20px;
+}
+
+.bottomborder {
+    background-color: #4aaaa5;
+    height: 7px;
 }
 
 footer {
